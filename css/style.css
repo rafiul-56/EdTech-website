@@ -1,3 +1,69 @@
 body{
     font-family: 'Poppins',Arial, Helvetica, sans-serif;
 }
+
+
+@media screen and (max-width: 768px) {
+    .h1-size-small {
+        font-size: 16px;
+    }
+
+    .p-small {
+        font-size: 12px;
+    }
+
+    .small-button {
+        font-size: 12px;
+        height: 30px;
+        width: auto;
+    }
+
+    .working{
+        width: 100% !important;
+    }
+}
+
+/* tablet  */
+@media screen and (min-width:770px) and (max-width:1024px) {
+    .h1-size-small {
+        font-size: 24px;
+    }
+    .p-small {
+        font-size: 12px;
+    }
+    .over{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-lines: 3;
+    }
+    .res {
+        position: absolute;
+        top: 30%;
+        /* margin-bottom: 100px; */
+    }
+}
+
+/* Computer  */
+
+@media screen and (min-width: 1120px) {
+    .h1-size-small {
+        font-size: 55px;
+    }
+    .res {
+        position: absolute;
+        top: 30%;
+        bottom: 50%;
+        /* margin-bottom: 100px; */
+    }
+
+
+
+    .hov:hover{
+
+        background-color: #289BDE;
+        color:white;
+        border: #289BDE;
+    }
+
+}
