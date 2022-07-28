@@ -13,47 +13,81 @@
   </head>
   <body>
     <main class="container">
-      <!-- navbar start -->
-      <header class="mt-5">
-        <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid ">
-            <a class="navbar-brand fw-bold fs-3" href="#">Pro Edu</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav position-absolute top-50 start-50 translate-middle">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Courses</a>
-                <a class="nav-link" href="#">Deals</a>
-                <a class="nav-link" href="#">Success</a>
-                <a class="nav-link" href="#">About</a>
-                <a class="nav-link" href="#">Register</a>
-                </div>
-                <div>
-                <a
-                  href="#"
-                  class="btn text-primary btn-outline-primary position-absolute top-50 end-0 translate-middle-y"
-                  role="button"
-                  data-bs-toggle="button"
-                  >Register</a
-                >
-                <!-- <button type="button" class="btn btn-primary">Register</button> -->
-                <!-- <button class="rounded bg-light text-primary"><a href="#">Register</a></button> -->
-              </div>
+      <!-- header start -->
+      <header>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand fs-2" href="#">Pro Edu</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Courses</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Deals</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
+              <button class="btn btn-outline-primary" type="submit">
+                Register
+              </button>
             </div>
           </div>
         </nav>
       </header>
-      <!-- navbar end -->
+      <!-- header end -->
+      <!-- Carousel start -->
+      <section class="container mt-5">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/cover/cover-1.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/cover/cover-3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- Carousel end -->
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
